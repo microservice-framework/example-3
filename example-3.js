@@ -31,7 +31,8 @@ var mControlCluster = new Cluster({
     GET: mservice.get,
     PUT: mservice.put,
     DELETE: mservice.delete,
-    SEARCH: recordSEARCH
+    SEARCH: recordSEARCH,
+    OPTIONS: mservice.options
   }
 });
 
